@@ -35,3 +35,17 @@ yarn-error.log*
 
 # Temporary files
 .tmp
+
+# Cypress specific
+cypress/videos/
+cypress/screenshots/
+cypress/fixtures/
+
+# Depending on your configuration, you might also want to exclude
+# any environment configuration files that are not meant to be shared:
+cypress.env.json
+
+# If you're using Cypress with npm, you may also exclude the Cypress cache folder,
+# though it's typically located outside your project directory:
+# macOS and Linux
+~/.cache/Cypress
